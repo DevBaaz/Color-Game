@@ -1,0 +1,48 @@
+#game-table {
+    background-color: whitesmoke;
+    width: 25%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+#the-great, #technique, #guess-color {
+    color: white;
+    background-color: teal;
+    text-align: center;
+    font-size: 70%;
+}
+
+#guess-color {
+    font-size: 250%;
+}
+
+#menu {
+    font-size: 50%;
+    background-color: white;
+    color: teal;
+    width: 32%;
+}
+
+#spur {
+    text-align: center;
+}
+
+#difficulty {
+    text-align: right;
+}
+
+#easy, #hard {
+    cursor: pointer;
+}
+
+#status-reset {
+    cursor: pointer;
+}
+
+.options {
+    font-size: 70%;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 32%;
+}

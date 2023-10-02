@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>PC Practice</title>
+    <link href="./index.css" type="text/css" rel="stylesheet">
+    <!-- <meta name="color-scheme" content="dark"> -->
+</head>
+<body>
+    <div id="color-game">
+    <table id="game-table">
+        <tr>
+            <td id="the-great" colspan="3">THE GREAT</td>
+        </tr>
+        <tr>
+            <td id="guess-color" colspan="3"></td>
+        </tr>
+        <tr>
+            <td id="technique" colspan="3">GUESSING GAME</td>
+        </tr>
+        <tr id="menu">
+            <td id="status-reset">NEW COLORS</td>
+            <td id="spur"></td>
+            <td id="difficulty"><span id="easy" onclick="levelSwitch(easyLevel, easyArray)">EASY</span> 
+                <span id="hard" onclick="levelSwitch(hardLevel, hardArray)">HARD</span></td>
+        </tr>
+        <tr>
+            <td class="options" onclick="check(option1)"> </td>
+            <td class="options" onclick="check(option2)">`</td>
+            <td class="options" onclick="check(option3)"> </td>
+        </tr>
+        <tr>
+            <td class="options" onclick="check(option4)"> </td>
+            <td class="options" onclick="check(option5)">`</td>
+            <td class="options" onclick="check(option6)"> </td>
+        </tr>
+    </table>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
